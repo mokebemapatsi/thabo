@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel-item {
+    flex: 1;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.destinations {
+    display: inline;
+    flex-direction: column; /* Keep destinations in a column */
+}
+
+.destination {
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: space-between; /* Space out the items */
+    align-items: center; /* Center items vertically */
+    margin: 10px; /* Space between each destination */
+    padding: 10px; /* Add padding for better spacing */
+    border: 1px solid #ccc; /* Optional: add a border for distinction */
+}
+
+.destination .text-container {
+    display: flex; /* Use flexbox for the text container */
+    flex-direction: column; /* Stack heading and paragraph vertically */
+    width: 55%; /* Set width for text container */
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.destination img {
+    width: 40%; /* Adjust width for image */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s; /* Add hover effect */
+    margin-left: 120vh;
+}
+
+.destination img:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.destination h2, 
+.destination p {
+    margin: 0; /* Remove default margins */
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: white;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.
+}
+.About-Us{
+    text-align: center;
+}
